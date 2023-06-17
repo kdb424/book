@@ -5,8 +5,8 @@
   left: 0;
   overflow-y: auto;
   width: 300px;
-  color: #364149;
-  background: #fafafa;
+  color: #007942;
+  background: #181818;
   border-right: 1px solid rgba(0, 0, 0, 0.07);
   transition: 0.5s;
 
@@ -17,7 +17,7 @@
 
     a {
       display: block;
-      color: #364149;
+      color: #65737e;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
@@ -30,7 +30,7 @@
     }
 
     li.active > a {
-      color: #0053bc;
+      color: #ebcb8b;
       text-decoration: none;
     }
 

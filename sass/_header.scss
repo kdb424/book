@@ -135,10 +135,13 @@
     cursor: pointer;
 
     @include menu-icon();
+    span {
+      background-color: gray;
+    }
 
     &:hover {
       span {
-        background-color: black;
+        background-color: white;
       }
     }
   }
